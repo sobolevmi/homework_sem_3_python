@@ -16,6 +16,7 @@ def FillListFromRandom():
     return random_list
 
 def SumOfElements(created_list):
+    """ Функция по подсчету суммы элементов списка, стоящих на нечетных позициях"""
     sum = 0
     for i in range(1, len(created_list), 2):
         sum += created_list[i]
