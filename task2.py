@@ -42,10 +42,3 @@ elif choice == 2:
     print(f"{user_list} -> {MultOfNumbers(user_list)}")
 else:
     print("Вы ввели неверное число, попробуйте снова")
-
-
-
-
-
-
-
